@@ -9,7 +9,28 @@ This light is water activated (using hardware, not software), and when it is sub
 Final project board = STM32L476RG
 https://os.mbed.com/platforms/ST-Nucleo-L476RG/
 
+Other board I have = STM32F429ZiT6U discovery 0 board
+Processor:
+Flash size:
+Ram size:
+other memory size:
+List 3-5 peripherals:
+ADC features:
+Board Cost:
+Processor Cost:
+Processor stock and vendors:
+Application Note:
 
 Other board I have = STM32F429ZiT6U discovery 0 board
 
 
+Processor:
+Flash size:
+Ram size:
+other memory size:
+List 3-5 peripherals:
+ADC features:
+Board Cost:
+Processor Cost:
+Processor stock and vendors:
+Application Note:
