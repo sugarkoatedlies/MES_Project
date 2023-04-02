@@ -22,7 +22,7 @@ Processor stock and vendors:
 Application Note:
 
 Other board I have = STM32F429ZiT6U discovery 0 board
-
+https://os.mbed.com/platforms/ST-Discovery-F429ZI/
 
 Processor:
 Flash size:
