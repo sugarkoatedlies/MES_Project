@@ -3,7 +3,7 @@
 ## Exercise 1
 
 An embedded system ive dreamed about designing for a while, is an underwater light.
-This light is water activated (using hardware, not software), and when it is submerged, the light is activated, it records pressure and temperature(at the minimum), has a rechargeable battery (with charging chip), and has some sort of light transceiver (ir/visible) that is used to communicate with the device and modify internal settings(light color and intensity) and communicate data (temperature and pressure data) via serial.  It stores information on a flash chip that it reads and writes data to.
+This light is water activated (using hardware, not software), when submerged. It records pressure and temperature(at the minimum), has a rechargeable battery (with charging chip), and has some sort of light transceiver (ir/visible) that is used to communicate with the device and modify internal settings(light color and intensity) and communicate data (temperature and pressure data) via serial.  It stores information on a flash chip that it reads and writes data to.
 
 ## Exercise 2
 Final project board = STM32L476RG
@@ -40,11 +40,14 @@ Processor stock and vendors:0 in stock, Digikey
 Application Note:
 
 #Exercise 3
-Blinky on the STM32L476RG
-##On a board, make blinky for yourself. Then add a button to turn the LED on and
-off. Bonus points for making the button cause an interrupt. Triple bonus points for debouncing the button signal... re-use the HAL's to make things easier at first.
-1. What are the hardware registers that cause the LED to turn on and off? (From the processor manual, don’t worry about initialization.)
-2. What are the registers that you read in order to find out the state of the button?
-3. Can you read the register directly and see the button change in a debugger or by printing out thes value of the memory at the register’s address?
+Blinky on the STM32L476RG (re-use the HAL's to make things easier at first.)
+
+1. On a board, make blinky for yourself.
+2. Then add a button to turn the LED on and off.
+3. Bonus points for making the button cause an interrupt. Triple bonus points for debouncing the button signal.
+
+A. What are the hardware registers that cause the LED to turn on and off? (From the processor manual, don’t worry about initialization.)
+B. What are the registers that you read in order to find out the state of the button?
+C. Can you read the register directly and see the button change in a debugger or by printing out thes value of the memory at the register’s address?
 
 
